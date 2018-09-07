@@ -7,15 +7,14 @@
   "author": "Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://discordapp.com/login",
+    "serviceURL": "https://discordapp.com/channels/{teamId}",
     "message": "",
     "popup": [],
     "hasNotificationSound": true,
     "hasDirectMessages": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "hasPredefinedUrl": true,
-    "hasCustomUrl": false,
+    "hasIndirectMessages": true,
+    "hasTeamId": true,
+    "urlInputPrefix": "https://discordapp.com/channels/",
     "webviewOptions": {
       "disablewebsecurity": ""
     }
